@@ -17,12 +17,12 @@ export const Action = styled.div`
   align-items: center;
   justify-content: center;
   opacity: 0;
-  cursor: pointer;
   transition: opacity 0.5s ease;
 `
 
 export const Item = styled.li`
   position: relative;
+  cursor: zoom-in;
 
   > img {
     border: 2px solid ${cores.branca};

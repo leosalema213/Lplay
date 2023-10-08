@@ -1,11 +1,12 @@
 import Section from '../Section'
 import play from '../../assets/images/play.png'
 import zoom from '../../assets/images/zoom.png'
-import { Item, Items, Action, Modal, ModalContent } from './styles'
 
-import fechar from '../../assets/images/fechar.png'
-import { useState } from 'react'
 import { GalleryItem } from '../../pages/Home'
+import { useState } from 'react'
+import fechar from '../../assets/images/fechar.png'
+
+import { Item, Items, Action, Modal, ModalContent } from './styles'
 
 type Props = {
   defaultCover: string

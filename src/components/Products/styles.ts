@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 
 export const Card = styled(Link)`
   display: block;
+  height: 100%;
   background-color: ${cores.cinza};
   padding: 8px;
   border-radius: 8px;

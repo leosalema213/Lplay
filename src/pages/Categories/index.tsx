@@ -1,4 +1,5 @@
 import ProdctsList from '../../components/ProductsList'
+
 import {
   useGetActionGamesQuery,
   useGetFightGameQuery,
@@ -6,7 +7,6 @@ import {
   useGetSimulationGamesQuery,
   useGetSporsGamesQuery
 } from '../../services/api'
-import { Game } from '../Home'
 
 const Categoties = () => {
   const { data: actionGames } = useGetActionGamesQuery()

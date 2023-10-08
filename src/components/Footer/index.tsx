@@ -10,19 +10,44 @@ const Footer = () => (
         <SectionTitle>Categorias</SectionTitle>
         <Links>
           <li>
-            <Link to="/categories#rpg">RPG</Link>
+            <Link
+              title="Clique aqui para acessar jogos de rpg"
+              to="/categories#rpg"
+            >
+              RPG
+            </Link>
           </li>
           <li>
-            <Link to="/categories#action">Ação</Link>
+            <Link
+              title="Clique aqui para acessar jogos de ação"
+              to="/categories#action"
+            >
+              Ação
+            </Link>
           </li>
           <li>
-            <Link to="/categories#sports">Esportes</Link>
+            <Link
+              title="Clique aqui para acessar jogos de esportes"
+              to="/categories#sports"
+            >
+              Esportes
+            </Link>
           </li>
           <li>
-            <Link to="/categories#simulation">Simulação</Link>
+            <Link
+              title="Clique aqui para acessar jogos de simulação"
+              to="/categories#simulation"
+            >
+              Simulação
+            </Link>
           </li>
           <li>
-            <Link to="/categories#fight">Luta</Link>
+            <Link
+              title="Clique aqui para acessar jogos de luta"
+              to="/categories#fight"
+            >
+              Luta
+            </Link>
           </li>
         </Links>
       </FooterSection>
@@ -30,10 +55,20 @@ const Footer = () => (
         <SectionTitle>Acesso rapido</SectionTitle>
         <Links>
           <li>
-            <Link to="/#on-sale">Promoçoes</Link>
+            <Link
+              to="/#on-sale"
+              title="Clique aqui para acessar a seção de promoçôes"
+            >
+              Promoçoes
+            </Link>
           </li>
           <li>
-            <Link to="/#coming-soon">Em breve</Link>
+            <Link
+              to="/#coming-soon"
+              title="Clique aqui para acessar a seção de em-breve"
+            >
+              Em breve
+            </Link>
           </li>
         </Links>
       </FooterSection>

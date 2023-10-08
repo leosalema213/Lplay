@@ -1,5 +1,6 @@
-import { Game } from '../../pages/Home'
 import Product from '../Products'
+
+import { Game } from '../../pages/Home'
 
 import { Container, List } from './styles'
 

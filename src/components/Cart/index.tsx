@@ -1,4 +1,10 @@
+import { useDispatch, useSelector } from 'react-redux'
+
 import Button from '../Button'
+import Tag from '../Tag'
+
+import { formatapreco } from '../ProductsList'
+import { RootREducer } from '../../store'
 import { close, remove } from '../../store/reducers/cart'
 
 import {
@@ -9,10 +15,6 @@ import {
   Quantity,
   CartItem
 } from './styles'
-import Tag from '../Tag'
-import { useDispatch, useSelector } from 'react-redux'
-import { RootREducer } from '../../store'
-import { formatapreco } from '../ProductsList'
 
 const Cart = () => {
   const { isOpen, items } = useSelector((state: RootREducer) => state.cart)
