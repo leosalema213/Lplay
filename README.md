@@ -1,5 +1,5 @@
 /
-## Link : https://lplay-gameshop.vercel.app
+## Deploy : https://lplay-gameshop.vercel.app
 ## Available Scripts
 
 In the project directory, you can run:
