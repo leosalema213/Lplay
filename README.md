@@ -1,8 +1,16 @@
 /
 ## Deploy : https://lplay-gameshop.vercel.app
-## Available Scripts
 
-In the project directory, you can run:
+Em resumo é um aplicativo de alta escala, uma plataforma para compra de jogos digitais, <br>
+com layout responsivo, formulário com validação e carrinho de compras.  <br>
+Projeto desenvolvido em React focado na componentização, código escalável, responsivo para maior acessibilidade,  <br> 
+foi utilizado Redux para o controle de estados e React Router para gerenciamento de rotas.  <br>
+Tecnologias:HTML | CSS | JavaScript | ReactJS |  Redux | TypeScript | Prettier | ESLint 
+
+
+
+
+## Available Scripts
 
 ### `npm start`
 
